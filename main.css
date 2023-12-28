@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image : url("Images/Backgroud_image.jpg");
+    background-position: center center;
+    background-size: max(1700px, 100vw);
+    background-repeat: no-repeat;
+    height : 70vh;
+    width: 100%;
+    position : relative;
+}
+.img{
+    position: relative;
+    z-index: 5;
+}
+.button{
+    position: relative;
+    z-index: 10;
+}
+.main .nav{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.text :first-child{
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.text :nth-child(2){
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.text{
+    color : white;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    white-space: pre-wrap;
+
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
